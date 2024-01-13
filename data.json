@@ -1,9 +1,86 @@
 {
   "picBed": {
-    "current": "smms",
-    "uploader": "smms",
+    "current": "github",
+    "uploader": "github",
     "smms": {
-      "token": ""
+      "token": "",
+      "_configName": "Default",
+      "_id": "94b88734-3271-412f-8140-57f3771f2d65",
+      "_createdAt": 1705130486191,
+      "_updatedAt": 1705130486191
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": false
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": false
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": false
+      },
+      {
+        "type": "sftpplist",
+        "name": "内置SFTP",
+        "visible": false
+      },
+      {
+        "type": "telegraphplist",
+        "name": "Telegraph",
+        "visible": false
+      },
+      {
+        "type": "piclist",
+        "name": "PicList",
+        "visible": false
+      }
+    ],
+    "github": {
+      "_configName": "ImgBase",
+      "_id": "3682ae6a-40c4-4254-bf02-112c2b62e828",
+      "_createdAt": 1705130134552,
+      "_updatedAt": 1705130288332,
+      "repo": "jjq419875574/ImgBase",
+      "branch": "master",
+      "token": "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",
+      "path": "",
+      "customUrl": ""
     }
   },
   "settings": {
@@ -23,11 +100,82 @@
       "username": "jjq419875574",
       "repo": "ImgBase",
       "branch": "master",
-      "token": "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",
+      "token": "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",
       "endpoint": "",
       "proxy": "",
       "interval": 60
+    },
+    "uploadNotification": true,
+    "rename": true,
+    "autoRename": false,
+    "deleteCloudFile": true,
+    "logLevel": [
+      "all"
+    ],
+    "logFileSizeLimit": 1
+  },
+  "needReload": false,
+  "buildIn": {
+    "compress": {
+      "quality": 100,
+      "isConvert": true,
+      "convertFormat": "png",
+      "isReSize": false,
+      "reSizeWidth": 500,
+      "reSizeHeight": 500,
+      "isReSizeByPercent": false,
+      "reSizePercent": 50,
+      "isRotate": false,
+      "rotateDegree": 0,
+      "isRemoveExif": false,
+      "isFlip": false,
+      "isFlop": false
+    },
+    "watermark": {
+      "isAddWatermark": false,
+      "watermarkType": "text",
+      "isFullScreenWatermark": false,
+      "watermarkDegree": 0,
+      "watermarkText": "",
+      "watermarkFontPath": "",
+      "watermarkScaleRatio": 0.15,
+      "watermarkColor": "#CCCCCC73",
+      "watermarkImagePath": "",
+      "watermarkPosition": "southeast"
+    },
+    "rename": {
+      "enable": true,
+      "format": "{localFolder:1}/{filename}"
     }
   },
-  "needReload": false
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "_configName": "ImgBase",
+          "_id": "3682ae6a-40c4-4254-bf02-112c2b62e828",
+          "_createdAt": 1705130134552,
+          "_updatedAt": 1705130288332,
+          "repo": "jjq419875574/ImgBase",
+          "branch": "master",
+          "token": "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",
+          "path": "",
+          "customUrl": ""
+        }
+      ],
+      "defaultId": "3682ae6a-40c4-4254-bf02-112c2b62e828"
+    },
+    "smms": {
+      "configList": [
+        {
+          "token": "",
+          "_configName": "Default",
+          "_id": "94b88734-3271-412f-8140-57f3771f2d65",
+          "_createdAt": 1705130486191,
+          "_updatedAt": 1705130486191
+        }
+      ],
+      "defaultId": "94b88734-3271-412f-8140-57f3771f2d65"
+    }
+  }
 }
