@@ -1,0 +1,33 @@
+{
+  "picBed": {
+    "current": "smms",
+    "uploader": "smms",
+    "smms": {
+      "token": ""
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "isListeningClipboard": false,
+    "showUpdateTip": true,
+    "autoStart": true,
+    "sync": {
+      "type": "github",
+      "username": "jjq419875574",
+      "repo": "ImgBase",
+      "branch": "master",
+      "token": "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",
+      "endpoint": "",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false
+}
